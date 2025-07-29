@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../font/Vazirmatn-Light.woff2') format('woff2');
+}
+:root{
+  --font-main: 'Vazirmatn', sans-serif;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-background: #f6f6f6;
+  --color-yellow: #fbc02d;
+  --color-main-hover: #00e5ff;
+  --color-dark-bg: #263238;
+  --color-border-light-ccc: #ccc;
+}

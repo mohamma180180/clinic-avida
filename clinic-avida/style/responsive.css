@@ -1,0 +1,146 @@
+@media screen and (max-width: 1434px) {
+    .main-navbar{
+        padding-right: 10rem;
+    }
+    .info-tabs-wrapper{
+        width: 90%;
+    }
+    .main-footer{
+        grid-template-columns: repeat(3,31%);
+        padding-right: 1rem;
+    }
+}
+@media screen and (max-width: 1272px) {
+    .guide-card p{
+        font-size: 13px;
+    }
+    .main-navbar{
+        padding-right: 5rem;
+    }
+    .main-navbar .main-nav-list{
+        gap: 0;
+    }
+    .main-navbar .main-nav-list > li{
+        padding: 0 1.1rem;
+    }
+}
+@media screen and (max-width: 1100px){
+    .main-navbar .main-nav-list{
+        display: none;
+    }
+    .main-navbar-mobile{
+        display: block;
+    }
+    .btn-hamburger{
+        display: flex;
+    }
+    .slider-list li{
+        height: 400px;
+    }
+    .main-navbar{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .info-tab-buttons{
+        justify-content: flex-start;
+        padding: 0.5rem 1rem;
+    }
+    .patient-guide-cards,.staff-wellbeing,.kindness-box,.progress-section{
+        flex-wrap: wrap;
+    }
+    .guide-card p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 900px){
+    .guide-card{
+        width: 70%;
+    }
+    .guide-card p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 812px){
+    .services-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    .faq-list{
+        align-items: flex-start;
+        padding-right: 1rem;
+    }
+    .info-tabs-wrapper{
+        width: 95%;
+    }
+    .guide-card p{
+        font-size: 16px;
+    }
+    .main-footer{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+        padding: 1rem 2rem 0 0;
+    }
+    .main-footer a{
+        font-size: 14px;
+    }
+    .slider-list li{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 611px){
+    .faq-item{
+        width: 95%;
+    }
+    .faq-item span{
+        font-size: 16px;
+    }
+    .guide-card{
+        width: 92%;
+    }
+    .main-navbar-mobile{
+        width: 270px;
+    }
+    .topbar-info-box .contact-info-box{
+        gap: 1rem;
+        padding-right: 0.5rem;
+    }
+    .topbar-message-lang{
+        padding-left: 1rem;
+    }
+    .language-selector ul{
+        right: -60%;
+    }
+    .hospital-mission{
+        text-align: start;
+    }
+}
+@media screen and (max-width: 450px){
+    .faq-item span{
+        font-size: 13px;
+    }
+    .faq-item span svg{
+        width: 20px;
+        height: 20px;
+    }
+    .slider-list li{
+        height: 200px;
+    }
+    .guide-card{
+        width: 100%;
+    }
+    .info-tabs-wrapper{
+        width: 100%;
+        border-radius: 0;
+    }
+    .guide-card p{
+        font-size: 14px;
+    }
+    .email-info,.phone-contact{
+        font-size: 12px;
+    }
+    .topbar-info-box .contact-info-box{
+        gap: 0.5rem;
+        padding-right: 0;
+    }
+}
